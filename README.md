@@ -1,16 +1,16 @@
-# Chicken-Disease-Classification--Project
+# Chicken-Disease-Classification
 
-## Workflows
+## Workflow Sequence
 
-1. Update config.yaml
-2. Update secrets.yaml [Optional]
-3. Update params.yaml
-4. Update the entity
-5. Update the configuration manager in src config
-6. Update the components
-7. Update the pipeline
-8. Update the main.py
-9. Update the dvc.yaml
+1. config.yaml
+2. secrets.yaml [Optional]
+3. params.yaml
+4. entity
+5. configuration manager in src config
+6. components
+7. pipeline
+8. main.py
+9. dvc.yaml
 
 ### DVC cmd
 
@@ -25,27 +25,6 @@
 ##### cmd
 
 - mlflow ui
-
-### dagshub
-
-[dagshub](https://dagshub.com/)
-
-MLFLOW_TRACKING_URI=
-MLFLOW_TRACKING_USERNAME=
-MLFLOW_TRACKING_PASSWORD=
-python script.py
-
-Run this to export as env variables:
-
-```bash
-
-export MLFLOW_TRACKING_URI=
-
-export MLFLOW_TRACKING_USERNAME=
-
-export MLFLOW_TRACKING_PASSWORD=
-
-```
 
 # AWS-CICD-Deployment-with-Github-Actions
 
@@ -80,7 +59,7 @@ export MLFLOW_TRACKING_PASSWORD=
 
 ## 3. Create ECR repo to store/save docker image
 
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
+    - Save the URI: 
 
 ## 4. Create EC2 machine (Ubuntu)
 
@@ -114,15 +93,12 @@ export MLFLOW_TRACKING_PASSWORD=
 
     AWS_REGION = us-east-1
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI = 
 
     ECR_REPOSITORY_NAME = simple-app
 
 # AZURE-CICD-Deployment-with-Github-Actions
 
-## Save pass:
-
-s3cEZKH5yytiVnJ3h+eI3qhhzf9q1vNwEi6+q+WGdd+ACRCZ7JD6
 
 ## Run from terminal:
 
