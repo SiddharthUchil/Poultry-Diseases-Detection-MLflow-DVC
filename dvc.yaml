@@ -39,6 +39,9 @@ stages:
       - AUGMENTATION
     outs:
       - artifacts/training/model.h5
+      - artifacts/prepare_callbacks/checkpoint_dir/model.h5
+      - artifacts/prepare_callbacks/tensorboard_log_dir
+
 
 
 
